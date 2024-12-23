@@ -1,0 +1,40 @@
+# macOS system files
+.DS_Store
+
+# Apache NiFi temporary files
+nifi-1.22.0/logs/
+nifi-1.22.0/temp/
+nifi-1.22.0/database_repository/
+
+# Apache Kafka logs
+kafka_2.13-3.5.0/logs/
+kafka_2.13-3.5.0/tmp/
+
+# Apache Flink logs and temporary files
+flink-1.17.0/log/
+flink-1.17.0/tmp/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Spark temporary and logs
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Hudi and Hive output
+/path/to/hudi_table/
+hive.log
+
+# Druid temporary files
+apache-druid-24.0.0/var/
+apache-druid-24.0.0/logs/
+
+# Apache Superset local files
+superset_home/
+*.db
